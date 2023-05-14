@@ -31,3 +31,4 @@ resource "google_cloud_run_service_iam_member" "public_access" {
 output "cloud_run_url" {
   value = "${google_cloud_run_service.mywebapp.status[0].url}"
 }
+#for referrence
